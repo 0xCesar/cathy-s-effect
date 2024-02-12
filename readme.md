@@ -1,4 +1,5 @@
-# Three.js Journey
+# Cathy's effect
+
 
 ## Setup
 Download [Node.js](https://nodejs.org/en/download/).
