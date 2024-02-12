@@ -1,0 +1,190 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+*,*::before,*::after{
+	box-sizing : border-box;
+}
+img{
+	max-width: 100%;
+	height: auto;
+    display: block;
+    vertical-align: middle;
+}
+html{
+	font-size: 62.5%    
+}  
+a, a:hover, a:visited{
+    color: #FFF;
+    text-decoration: none;
+}
+h1{
+    font-size: 4rem;
+}
+body{
+    font-size: 1.4rem;
+    cursor: none;
+}
+      
+html,
+body
+{
+  /*  overflow: scroll; */
+  overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    list-style: none;
+    background-color: black;
+    color: white;
+}
+ul, ol {
+   list-style: none; /* Remove list styles */
+   padding: 0; /* Remove default padding */
+   margin: 0; /* Remove default margin */
+}
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+
+#container{
+    width: 3500px;
+    height: 2800px;
+    position: relative;
+}
+
+.card{
+    position: absolute;
+    transform: translate(-50%,-50%);
+ /*   background-color: red; */
+}
+
+.card img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    opacity: 0;
+    pointer-events: none;
+}
+.card figcaption{
+   opacity: 0;
+}
+/*
+.card:hover figcaption{
+   opacity: 1;
+} */
+#un{
+   top:1750px;
+   left: 1400px;
+}
+
+#deux{
+    top: 340px;
+    left: 3200px;
+ }
+ #trois{
+    top: 2000px;
+    left: 2400px;
+ }
+ #quatre{
+    top: 500px;
+    left: 366px;
+ }
+ #cinq{
+    top: 2490px;
+    left: 2930px;
+ }
+ #six{
+    top: 500px;
+    left: 2000px;
+ }
+ #sept{
+    top: 970px;
+    left: 2800px;
+ }
+ #huit{
+    top: 1520px;
+    left: 3100px;
+ }
+ #neuf{
+    top: 670px;
+    left: 1160px;
+ }
+ #dix{
+    top: 1930px;
+    left: 400px;
+ }
+ #onze{
+    top: 2500px;
+    left: 1800px;
+ }
+ #douze{
+    top: 2230px;
+    left: 1060px;
+ }
+ #treize{
+    top: 1360px;
+    left: 800px;
+ }
+ #quatorze{
+    top: 1060px;
+    left: 1750px;
+ }
+ #quinze{
+    top: 1580px;
+    left: 2220px;
+ }
+ header{
+   position: absolute;
+   z-index: 100;
+   top: 12px;
+   left: 0;
+   width: 100vw;
+   display: flex;
+   justify-content: space-between;
+   padding-inline: 50px;
+ }
+ header ul{
+   display: flex;
+   gap: 10Px;
+ }
+ footer{
+   position: absolute;
+   z-index: 100;
+   bottom: 12px;
+   left: 0;
+
+   width: 100vw;
+ }
+ footer ul{
+   display: flex;
+   justify-content: space-around;
+   width: 50%;
+   margin-inline: auto;
+
+ }
+ 
+ .custom-cursor {
+   position: absolute;
+   width: 10px;
+   height: 10px;
+   background-color: #FFF;
+
+   border-radius: 50%; 
+   pointer-events: none; 
+   z-index: 200;
+}
+.custom-cursor-follower{
+   position: absolute;
+   width: 25px;
+   height: 25px;
+   border: 1px white solid; 
+   border-radius: 50%;  
+   pointer-events: none;
+   z-index: 200;
+   transform: translate(-30%, -30%);
+}
